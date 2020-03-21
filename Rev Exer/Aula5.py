@@ -9,3 +9,5 @@ while i <= int(numero_convidados):
 
 for convidado in lista_convidados:
     print(convidado)
+
+print("Teste")
