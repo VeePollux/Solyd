@@ -1,6 +1,6 @@
 class Veiculo:
 
-    def __init__(self, rodas, marca, cor, tanque):
+    def __init__(self, cor, rodas, marca, tanque):
         self.cor = cor
         self.rodas = rodas
         self.marca = marca

@@ -1,10 +1,19 @@
+from carro import Carro
 from veiculo import Veiculo
 
-moto = Veiculo(2,"Yamaha", "Preto", 10)
+caminhaoP = Veiculo(2,"Yamaha", "Preto", 10)
+carroV = Carro("Vermelho", 4, "bmw", 30)
 
-print(moto)
-print(type(moto))
-print(moto.cor)
-print(moto.tanque)
-moto.abastecer(10)
-print(moto.tanque)
+print(caminhaoP)
+print(type(caminhaoP))
+print(caminhaoP.cor)
+print(caminhaoP.tanque)
+caminhaoP.abastecer(500)
+print(caminhaoP.tanque)
+
+print(carroV.cor)
+print(carroV.tanque)
+carroV.abastecer(30)
+print(carroV.tanque)
+carroV.abastecer(10)
+print(carroV.tanque)
